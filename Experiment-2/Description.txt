@@ -2,4 +2,9 @@ In this Experinment -2 the title is Responsive Banking UI with Deposit/Withdrawa
 I have created a Lable for Showing the Balance and Two Buttons name as Deposit and Withdrawal.
 make the above content in a Card and make all the body content to center and inside the card also make it into center .
 and arranged in a column and make the sizes.
-and add green color to Deposit button and Red color to Withdrawl Button
+and add green color to Deposit button and Red color to Withdrawl Button.
+
+Learned:
+1. I learned how to create lables and Buttons
+2. I learned How to make the content to center and size increase for content and add color to that
+3. I learned basic Html and CSS
