@@ -1,0 +1,11 @@
+In this Experiment i create a admin dashboard in that at top section i have created Title Admin dashboard and right top a toggle button for darkmode
+and a nav bar with Home , Users , settings and at main area i write some message. and 
+at bottom i write the copywrite @ admin panal. 
+this theme is simple green and white
+when we click on darktheme it will change to black theme. for this function i created toggle theme as id.
+
+
+Learning Outcomes.
+1. i learned how to create header , footer , nav bar and main area using html.
+2. i learned how to add padding , grid and change of colours and basic things in css
+3. i learned how to create basic admin page using html and css.
