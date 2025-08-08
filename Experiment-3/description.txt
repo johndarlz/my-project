@@ -3,6 +3,7 @@ and a nav bar with Home , Users , settings and at main area i write some message
 at bottom i write the copywrite @ admin panal. 
 this theme is simple green and white
 when we click on darktheme it will change to black theme. for this function i created toggle theme as id.
+in this i used simple script to toggle the dashboard for light and dark theme.
 
 
 Learning Outcomes.
