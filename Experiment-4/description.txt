@@ -1,0 +1,18 @@
+Title : Live Character Counter
+
+Using HTML:
+1. In this Experiment i created a text a text box using html with id textInput
+2. and then i Created a Character Count it started with 0
+
+Using JS:
+1. I selected the textarea textInput and the span count using getElementById.
+2. Inside the function, i set the text of the count.textContent to 
+   the current length of the text inside the textarea using textInput.value.length.
+
+Learning Outcomes:
+1. I learned Basics of javascript and how to use In Html.
+2. I Learn How to create a Textbox and below that a Characters That will help to Count
+   the Characters in the textbox that you entered
+3. I understand how to implement javascript in this Live Character Experiment to Count the characters.
+
+
