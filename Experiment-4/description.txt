@@ -16,3 +16,4 @@ Learning Outcomes:
 3. I understand how to implement javascript in this Live Character Experiment to Count the characters.
 
 
+
