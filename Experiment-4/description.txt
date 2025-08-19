@@ -4,10 +4,6 @@ Using HTML:
 1. In this Experiment i created a text a text box using html with id textInput
 2. and then i Created a Character Count it started with 0
 
-Using CSS:
-1.I added basic styling like margin, padding, font-family, and width to make the textbox and text look neat.
-2.I highlighted the character count number (#count) in blue color and made it bold for better visibility.
-
 Using JS:
 1. I selected the textarea textInput and the span count using getElementById.
 2. Inside the function, i set the text of the count.textContent to 
