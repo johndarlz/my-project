@@ -1,0 +1,35 @@
+In HTML
+
+1. Created a container box to hold the drawing tool.
+2. Added a heading called Canvas Drawing Tool.
+3. Used the <canvas> tag to create a drawing area of fixed width and height.
+4. Connected the canvas with JavaScript for drawing features.
+
+In CSS
+
+1. Styled the container with border, margin, and padding.
+2. Set a fixed width (650px) and background color (white) for the container.
+3. Styled the canvas with a light background and a dark border.
+4. Changed the cursor to crosshair inside the canvas to indicate drawing mode.
+5. Made the layout simple and clean so focus stays on the drawing feature.
+
+
+In JavaScript
+
+1. Selected the canvas using getElementById and got its 2d drawing context.
+2. Defined variables to track mouse position and whether the user is drawing.
+3. Added an event for mousedown to start drawing.
+4. Added an event for mousemove to draw lines when the mouse is pressed.
+5. Added an event for mouseup to stop drawing.
+6. Used mouseenter and mouseleave to track if the mouse is inside the canvas area.
+7. Used line styles (strokeStyle, lineWidth, lineCap) to make smooth blue lines.
+
+
+Learning Outcomes
+
+1. Learned how to use the HTML <canvas> element for drawing.
+2. Understood how to get the 2D rendering context and draw shapes/lines.
+3. Learned how to handle mouse events (mousedown, mousemove, mouseup, etc.).
+4. Understood how to track mouse coordinates relative to the canvas.
+5. Practiced how to draw smooth continuous lines.
+6. Learned how to use line properties like color, width, and round edges.

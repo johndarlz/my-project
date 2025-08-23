@@ -1,0 +1,39 @@
+In HTML
+
+1. Created the basic structure of the webpage using <html>, <head>, and <body>.
+2. Added a heading  called Product List.
+3. Used a dropdown menu (<select>) with options like All, Clothing, Electronics, Books.
+4. Made a list of products using <ul> and <li> tags.
+5.Added a data-category attribute in each product item so it can be filtered later.
+6.Connected the HTML page with CSS for styling and with JavaScript for functionality.
+
+In CSS
+
+1. Styled the main product box with border, padding, and margin.
+2. Gave proper spacing between items so they look neat.
+3. Added padding and background to list items to make them clear.
+4. Styled the dropdown to look simple and user-friendly.
+5. Used border-radius to make product boxes smooth.
+6. Kept the design minimal and clean so focus stays on functionality.
+
+
+In JavaScript
+
+1. Selected the dropdown element using getElementById.
+2. Collected all product list items using querySelectorAll.
+3. Added an event listener to the dropdown (change event).
+4. Wrote logic to get the selected category when user changes the dropdown.
+5. Checked each product’s data-category value.
+6. Used if condition to show products that match the selected category.
+7. Used style.display = "none" to hide products that don’t match.
+8. Made sure All option shows every product.
+
+
+Learning Outcomes
+
+1. Learned how to build a dynamic webpage using HTML, CSS, and JavaScript together.
+2. Understood how to use dropdown menus for filtering content.
+3. Learned about DOM manipulation – changing page elements without refreshing.
+4. Practiced using JavaScript events like onchange.
+5. Learned how to use data attributes (data-category) to store extra information in HTML.
+6.Understood how to show and hide elements dynamically with JavaScript.
