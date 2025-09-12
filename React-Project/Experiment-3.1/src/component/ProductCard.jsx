@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css"; // import the CSS file
+import "../App.css"; 
 
 function ProductCard({ name, price, status }) {
   return (
