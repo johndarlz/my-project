@@ -1,0 +1,35 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+  margin: 4px;
+}
+
+button {
+  padding: 6px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.book-list {
+  margin-top: 15px;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
