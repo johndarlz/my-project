@@ -1,9 +1,13 @@
 .container {
-  max-width: 600px;
-  margin: 20px auto;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
   padding: 15px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
@@ -23,6 +27,8 @@ button {
 
 .book-list {
   margin-top: 15px;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .book-item {
