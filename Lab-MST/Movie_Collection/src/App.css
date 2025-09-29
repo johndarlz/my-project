@@ -1,0 +1,70 @@
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  border: 2px solid #ccc;   
+  padding: 20px;
+}
+
+.movie-item {
+
+  border-radius: 8px;
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 350px;
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.movie-item button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.movie-item button:hover {
+  background: #e60000;
+}
+
+.movie-item {
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+

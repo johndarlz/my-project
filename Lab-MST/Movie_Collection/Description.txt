@@ -1,0 +1,24 @@
+Title : Movie Collection
+SET 3
+
+steps:
+in this i created a react app using npm create vite@latest Movie_collection
+then i install the dependencies using npm install and run the code npm run dev inside the react app
+in this code i create a constant function to list all the movies
+in that function i listed the movie name , genre and rating of the movie
+in that i add a button in red color after click on that it will remove that movie from the movie
+i create a function for the button inside the src>components i created MoviesCollection.jsx file in that the functioon of button will work
+i reander this app.jsk and it will show in the browser.
+
+CSS:
+In this i align the content to center
+and add the boader to the all the movies list
+add the color red to the button 
+add the title style with large text with and highlight
+in cards it makee the context to center
+
+
+Learning outcomes
+1. i learned how to create a list of movies
+2. i learn how to remove the item from the list when click on button
+3. i understand how to create a function
