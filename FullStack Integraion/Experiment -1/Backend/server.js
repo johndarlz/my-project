@@ -1,19 +1,17 @@
+// backend/server.js
 const express = require('express');
-const cors = require('cors');
-
+const cors = require('cors'); // ✅ Make sure this line is present
 const app = express();
 const port = 5000;
 
-// Enable CORS for all routes
-app.use(cors());
+// ✅ This is the key line that enables cross-origin requests
+app.use(cors()); 
 
-// Example API route
 app.get('/api/data', (req, res) => {
-  res.json({ message: 'Hello from the backend!' });
+  console.log('Request received on /api/data');
+  res.json({ message: 'Hello from the backend! CORS is enabled.' });
 });
 
-// Start server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
-
